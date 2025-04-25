@@ -98,7 +98,14 @@ const App = () => {
         
 
         {/* Navbar Button */}
-        <button title="College Website"><Launch/></button>
+        {/* <button title="College Website"><Launch/></button> */}
+        <button
+          title="College Website"
+           onClick={() => window.open("https://smtmaherbanu.edu.in/", "_blank")}
+          >
+         <Launch />
+          </button>
+
         
 
         </div>
