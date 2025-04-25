@@ -279,7 +279,7 @@
       visibility: hidden;
     }
     .chatbot-popup {
-      height: 100vh;
+      height: 100dvh;
       width: 100%;
       left: 0;
       bottom: 0;
